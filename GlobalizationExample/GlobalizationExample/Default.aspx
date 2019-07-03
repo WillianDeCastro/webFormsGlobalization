@@ -7,6 +7,8 @@
 
         <h1>Pagina inicial</h1>
         <asp:Label ID="traducao" runat="server" Text="Label"></asp:Label>
+         <asp:Label ID="traducao2" runat="server" Text="<%$ Resources:Resource, AccCode %>"></asp:Label>
+        
     </div>
     <asp:ListBox ID="ListBox1" runat="server" OnSelectedIndexChanged="ListBox1_SelectedIndexChanged" AutoPostBack="true">
         <asp:ListItem Value="pt-BR" Selected="True"></asp:ListItem>
